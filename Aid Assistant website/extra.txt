@@ -1,0 +1,108 @@
+<div class="patient_profile">
+                <div class="patient_info">
+                    <h1 id="pi"> Patient Information</h1>
+                    
+                    <img src="images/patienticon.png" id="patient_image">
+                    
+                    <div class="information_box">
+                        <p class="label name"> Name </p>
+                        <p class="info name"> Tahiat Mahabub CHowdhury </p>
+                    </div>
+                    <div class="information_box">
+                        <p class="label age"> Age </p>
+                        <p class="info age"> 22 years old </p>
+                    </div>
+                    <div class="information_box">
+                        <p class="info_label"> Name </p>
+                        <p class="info_name"> Tahiat Mahabub CHowdhury </p>
+                    </div>
+                    <div class="information_box">
+                        <p class="info_label"> Name </p>
+                        <p class="info_name"> Tahiat Mahabub CHowdhury </p>
+                    </div>
+                    <div class="information_box">
+                        <p class="info_label"> Name </p>
+                        <p class="info_name"> Tahiat Mahabub CHowdhury </p>
+                    </div>
+                    <div class="information_box">
+                        <p class="info_label"> Name </p>
+                        <p class="info_name"> Tahiat Mahabub CHowdhury </p>
+                    </div>
+                </div>
+
+                <div class="rightsidecontent">
+                    <div class="bloodtimer">
+                        <h2><i class='bx bxs-donate-blood' ></i>Blood Donation Limit</h2>
+                        <p class="bloodcontent">
+                            You can donate blood now.<br><br>
+                            If you donated blood, click the button below to start timer.
+                        </p>
+                        <button input="submit">Donated</button>
+                    </div>
+                </div>
+
+
+
+.patient_profile{
+    display: flex;
+    flex-direction: row;
+}
+.patient_info{
+    flex: 100%;
+    margin-right: 1%;
+}
+
+#pi{
+    font-size: 3rem;
+    margin-bottom: 2%;
+}
+.rightsidecontent{
+    flex: 50%;
+}
+.patient_info #patient_image{
+    height: 250px;
+    width: 250px;
+    float: left;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+button {
+    padding: 3%;
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+    background-color:  #cc0001;
+    color:#fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.bloodtimer button:hover{
+    background: #1d2026;
+  }
+.bloodtimer{
+    font-size: 1.1rem;
+    text-align: justify;
+    border-radius: 18px;
+    padding: 5% 5%;
+    background-color: #083546;
+    color: #fff;
+}
+.bloodtimer button{
+    margin-left: 32%;
+}
+
+.bloodtimer i{
+    color: #cc0001;
+    margin-right: 5%;
+}
+.patient_info .information_box{
+    padding-left: 20px;
+    font-size: 1.2rem;
+}
+.patient_info .information_box .label {
+    color:#083546;
+    font-weight: 600;
+}
+.patient_info .information_box .info{
+    font-size: 1.3rem;
+}

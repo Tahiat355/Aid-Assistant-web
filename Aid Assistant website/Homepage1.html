@@ -1,0 +1,126 @@
+<html>
+  <head>
+    <title>Aid Assistant</title>
+    <link rel="stylesheet" href="StyleHomepage1.css">
+  </head>
+
+  <body>
+    
+    <div class="back">
+      <!--
+      <div>
+        <img class="backg"
+          src="images/backgroundhome.jpg"
+        >
+      </div>
+      -->
+
+      <nav class="Menu">
+        <img src="images/Aid_Assistantbluelogo.png"
+        height="100px" width="100px">
+        <h1 class="Aid"> Aid Assitant </h1>
+        <ul>
+          <li><a href=""> Contact </a></li>
+          <li><a href=""> Support Us </a></li>
+          <li><button input="button" onclick="toggleMenu()">Login/Signup</button></li>
+        </ul>
+        <div class="sub-menu-wrap" id="subMenu">
+          <div class="sub-menu">
+            <div class="login">
+              <div class="login-link">
+                <p>
+                  <a href="DoctorLogin.html">
+                    <img src="images/doctor.png" height="30px" width="30px"> &nbsp; Doctor 
+                  </a>  
+                </p>
+              </div>
+              <div class="login-link">
+                <p>
+                  <a href="PatientLogin.html">
+                    <img src="images/patient.png" height="30px" width="30px"> &nbsp; Patient
+                  </a>
+                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </nav>
+
+
+      <div class="Intro">
+        <h1>
+          The next generation of <br>healthcare for people
+        <h1>
+        <h2 class="Features">
+          Our Features
+        </h2>
+        </div>
+
+      <div class="row">
+        <div class="col-1">
+          <h1>Health Records</h1>
+          <p> Your Health records here</p>
+
+          <ul class="feature">
+            <li class="btn active"></li>
+            <li class="btn"></li>
+            <li class="btn"></li>
+          </ul>
+
+        </div>
+        <div class="col-2">
+          <img src="images/310989351_470606058365614_3273433845605372790_n.png" 
+          id="banner">
+        </div>
+      </div>
+    
+    </div>
+
+    <script src="Homepage1.js"></script>
+
+    <div class="footer">
+
+      <div class="about">
+        <h4>About Us</h4>
+        <p>Our website is your gateway to personalized and accessible healthcare. With our comprehensive services, you can enjoy the benefits
+          of seamless medical services, streamlined appointments, and easy access to your health records. Whether you're an individual or a company, 
+          our platform empowers you to take control of your well-being and ensure the best care possible. Join us today and embark on a journey towards a healthier, happier life.
+        </p>
+        <br><br>
+        <nav class="social">
+          <div class="round">
+            <a href="#">
+              <img src="images/facebook.png" width="60px" height="60px">
+            </a>
+            </div>
+          <p> &nbsp; &nbsp; &nbsp;</p>
+          <div class="round">
+            <a href="#">
+              <img src="images/instagram.png" width="60px" height="60px">
+            </a>
+            </div>
+        </nav>
+      </div>
+
+      <div class="report">
+        <h4>Report</h4>
+        <form>
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Email">
+          <br>
+          <br>
+          <label for="comment">Comment</label>
+          <textarea id="comment" rows="4" cols="50" placeholder="Report your problems here"></textarea>
+
+          <button type="Submit" id="sub"> Submit </button>
+        </form>
+
+      </div>
+    </div>
+    <footer>
+      &copy; Copyright
+    </footer>
+  </body>
+
+</html>
