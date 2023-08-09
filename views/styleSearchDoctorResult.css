@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    background-image: url("images/Doctor_tools_and_Medical_elements_pattern_cartoon_hand_drawn_cartoon_art_illustration.jpg");
+    background-size: contain;
+}
+.searchresult{
+    width: 1200px;
+    margin: 3% auto;
+    
+    /*height: 623px;*/
+    box-shadow: 0 12px 18px rgba(54,176,138,0.005);
+    border-radius: 6px;
+    background: #fefefe;
+}
+.topbody{
+    text-align: center;
+    background-color: #083546;
+    width: inherit;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#logo{
+    height: 100px;
+    width: 100px;
+}
+#ph{
+    font-size: 3rem;
+    margin-bottom: 3%;
+    color: #fff;
+}
+
+#download{
+    font-size: 50px;
+    outline: none;
+    background-color: none;
+    border: 0;
+    border-radius: 10px;
+    background-color:  #1d2026;
+    color:#fff;
+    cursor: pointer;
+}
+#download:hover{
+    color:  #1d1d1d;
+    background-color:#fff;
+    cursor: pointer;
+}
+.prescription_list #presplus{
+    padding: 10px 10px 10px 10px;
+    outline: none;
+    font-size: 25px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #cc0001;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    margin-top: -25px;
+}
+.prescription_list #presplus:hover{
+    background-color: #1d1d1d;
+}
+#presdiseaseName, #presDoctorName, #addpresdate{
+    width: 500px;
+    font-size: 20px;
+}
+#pdf{
+    background-color: #083546;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 40px;
+    width: 500px;
+}
+
+ /* report list */
+ .repbar{
+    height: 170px;
+    width: 1100px;
+    background-image: linear-gradient(to right , #083546, #1d2026);
+   
+    border-radius: 12px;
+    margin-bottom: 20px ;
+    overflow: hidden;
+    
+}
+ .repbar:hover{
+    transform: scale(1.02) ;
+    -webkit-transition: transform 0.5s ease;
+ }
+
+ .report_list #repplus{
+    outline: none;
+    font-size: 60px;
+    border: 0;
+    border-radius: 50%;
+    background-color: #083546;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    margin-top: 50px;
+}
+
+.reporttext{
+    font-size: 30px;
+    font-weight: 500;
+    margin-right: 250px;
+    margin-top: 10px;
+}
+.add_report #reportName,#reportDate{
+    width: 500px;
+    font-size: 20px;
+}
+.add_report #reppdf{
+    padding: 10px 10px 10px 10px;
+    outline: none;
+    font-size: 25px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #cc0001;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    margin-top: -25px;
+    margin-left: 50px;
+}
+.add_report #reppdf:hover{
+    background-color: #1d1d1d;
+}
+#rep_img{
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 45px;
+    margin-right: 0px;
+    margin-top: 25px;
+    height: 100px;
+    width: 100px;
+}
+#reptest{
+    font-size: 35px;
+    font-weight: 700;
+    color: #fff;
+}
+#repdate{
+    font-size: 25px;
+    
+}
+#repother{
+    font-size: 21px;
+    color: #fff;
+}
+
+/*medicinelist*/
+.med_bar{
+    height: 120px;
+    background-color: #e8f8f8;
+    background-image: linear-gradient(to right , #083546, #1d2026);
+    
+    width: 800px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    
+}
+#medimg{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+    background-color: #fff;
+}
+#medtype{
+    font-size: 30px;
+    font-weight: 600;
+    width: 200px;
+    color:#fff;
+} 
+#medname{
+    font-size: 30px;
+    font-weight: 600;
+    width: 800px;
+    color:#fff;
+}
+#medquantity, #medtimes, #medduration{
+font-size: 20px;
+width: 200px;
+color:#fff;
+}
+#medcomment{
+font-size: 20px;
+color:#fff;
+}
+
+
+/* Search Doctor */
+.searchbox{
+    display: flex;
+    flex-direction: row;
+}
+#labelsearch{
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 600;
+    color: #cc0001;
+}
+select{
+    margin-right: 10px;
+    width: 350px;
+}
+#Speciality, #Medical, #District{
+    font-size: 22px;
+}
+.searchbutton{
+    font-size: 70px;
+    margin-left: 20px;
+    color: #083546;
+    border-radius: 50%;
+    outline: none;
+    border: 0;
+    background-color: #fff;
+}
+.searchbutton:hover{
+    cursor: pointer;
+    color: #cc0001;
+}
+.doctorinfo .table-item.td1{
+    width: 40%;
+   }
+
+.doctorinfo{
+/* background-image: linear-gradient(to right , #1d2026, #083546);*/
+background-image: linear-gradient(to right , #083546, #1d2026);
+border-radius: 15px;
+width: 800px;
+margin-top: 30px;
+}
+#doctorimg{
+height: 200px;
+width: 200px;
+margin-left:50px;
+background-color: #fff;
+border-radius: 50%;
+}
+#doctorname{
+font-size: 25px;
+font-weight: 600;
+color: #fff;
+}
+#doctorspeciality, #doctormedical, #doctormobile,#doctorgender{
+font-size: 20px;
+color: #fff;
+}
+.lb{
+color: #59b3cc;
+}
+
+/*edit profile */
+.edit_box .edit {
+    color:#59b3cc;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.change{
+    width: 500px;
+}
+.edit_box input{
+    padding-left: 20px;
+    border: 2px solid;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#showp{
+    font-size: 20px;
+    margin-right: 50px;
+}
+.editflex{
+    display: flex;
+}
+.savebutton{
+    margin-left: 500px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    border: none;
+    outline: none;
+    background: #cc0001;
+    color:#fff;
+    width: 300px;
+    font-size: 30px;
+    padding: 15px 25px 15px 25px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+.savebutton:hover{
+    background-color:#083546;
+}
+#addqua{
+    width: 400px;
+    margin-left: 450px;
+}

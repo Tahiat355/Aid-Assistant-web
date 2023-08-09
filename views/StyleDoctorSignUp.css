@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #e8f8f8;
+    background-image: url("images/Doctor_tools_and_Medical_elements_pattern_cartoon_hand_drawn_cartoon_art_illustration.jpg");
+    background-size: cover;
+}
+.container{
+    width: 80%;
+    margin: 3% auto;
+    display: flex;
+    height: 623px;
+    box-shadow: 0 12px 18px rgba(54,176,138,0.005);
+    border-radius: 6px;
+    background: #fff;
+}
+.login-link{
+    background-color: #175369;
+    background-image: url("images/docmale.webp");
+    background-position: bottom center;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    width: 30%;
+    padding: 3%;
+}
+.signupformcontainer{
+    width: 70%;
+    padding: 3% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    margin-left: 24%;
+
+}
+.logoname{
+    font-weight: 550;
+    color: #fff;
+    font-size: 30px;
+    align-items: center;
+}
+.leftbigheading{
+    font-weight: 800;
+    color:#fff;
+    font-size: 20px;
+    margin: 10% 0 5%;
+    text-align: center;
+}
+.loginbtn{
+    text-decoration: none;
+    color: #fff;
+    width: 70%;
+    font-weight: 500;
+    display: inline-block;
+    margin: 7% 15%;
+    text-align: center;
+    border: 2px solid #eff0ff;
+    border-radius: 24px;
+    padding: 3% 0;
+    background-color: #175369;
+}
+.loginbtn:hover{
+    background-color: #eff0ff;
+    color: #175369;
+    cursor: pointer;
+}
+.bigheading{
+    font-weight: 900;
+    font-size: 43px;
+    color: #175369;
+}
+.progress-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+    width: 70%;
+}
+.progress-bar .stage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    flex-direction: column;
+}
+.progress-bar .tool-tip{
+    color: #175369;
+    font-weight: 600;
+}
+.stageno{
+    margin: 6% 0;
+    padding: 2% 7%;
+    border-radius: 50%;
+    background-color: #e8f8f8;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.textfield{
+    display: flex;
+    align-items: center;
+    border: 1px solid #083546;
+    padding: 2%;
+    margin: 0 2%;
+    width: 370px;
+    border-radius: 4px;
+    color: #083546;
+}
+.textfield i{
+    color: #175369;
+}
+input{
+    border: none;
+    outline: none;
+    background: inherit;
+    color:#083546;
+    width: 370px;
+    margin-left: 4%;
+    font-size: 20px;
+}
+select{
+    font-size: 20px;
+    border: 0px;
+    outline: none;
+    width: 370px;
+}
+select#medicalname{
+    width: 320px;
+}
+.signup-form-content{
+    width: 100%;
+    padding: 0 3%;
+}
+::-webkit-datetime-edit-month-field,
+::-webkit-datetime-edit-day-field,
+::-webkit-datetime-edit-year-field, input::placeholder{
+    color: #84848d;
+    background-color: #fff;
+}
+input[type="date"]::-webkit-calendar-picker-indicator{
+    color: rgba(0,0,0,0);
+    opacity: 1;
+    display: block;
+    height: 20px;
+    
+}
+
+.gender-selection{
+    display: flex;
+    align-items: center;
+    margin-left: 4%;
+    width: 100%;
+    font-size: 20px;
+}
+.gender-selection label{
+    margin: 0 2%;
+    display: flex;
+    align-items: center;
+    color: #000;
+    width: 100px;
+}
+input[type="radio"]{
+    accent-color: #175369;
+    margin-right: 6px;
+}
+
+.fieldheading{
+    color: #175369;
+    width: 20%;
+    font-weight: 600;
+}
+.pagebtns{
+    display:flex;
+    flex-direction: row;
+    width: 790px;
+}
+button{
+    border: none;
+    outline: none;
+    background: #175369;
+    color:#fff;
+    width: 100%;
+    margin-left: 2%;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+button:hover{
+    background-color:#083546;
+
+}
+.Previous{
+    visibility: hidden;
+}
+
+.tc-content input{
+    width: 4%;
+    margin-left: 4%;
+    accent-color: #175369;
+    margin-bottom: 4%;
+}
+.tc a{
+    text-decoration: none;
+    color:#175369;
+}
+label .tc{
+    margin: 4%;
+}
